@@ -1,5 +1,5 @@
 def prime?(num)
-num.to_a 
+(1..num).to_a 
 end 
 
 
