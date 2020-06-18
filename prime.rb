@@ -1,4 +1,5 @@
 def prime?(num)
+num.to_a 
 
 end 
 
