@@ -1,3 +1,4 @@
+require 'prime'
 def prime?(num)
 prime_num = []
 while num = 0 
