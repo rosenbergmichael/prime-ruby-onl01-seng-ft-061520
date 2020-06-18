@@ -5,7 +5,7 @@ while i < num.length
 prime_num << yield(num[i])
 i += 1 
 end
-if prime_num.prime?(true)
+if prime_num.prime?
    true 
  else
    false 
