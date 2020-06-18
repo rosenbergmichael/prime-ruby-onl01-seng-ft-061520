@@ -5,7 +5,7 @@ while n = num.prime
 prime_numbers << yield(num[i])
 i += 1 
 end 
-end 
+if 
 
 
  
