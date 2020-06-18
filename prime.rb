@@ -5,13 +5,9 @@ while n = num.prime
 prime_numbers << yield(num[i])
 i += 1 
 end 
-if 
-
-
- 
- #if block_return_values.include?(false)
-  # false
- #else
-#   true
-# end
-#end
+if prime_numbers.include?(false)
+false
+else
+  true
+end
+end
