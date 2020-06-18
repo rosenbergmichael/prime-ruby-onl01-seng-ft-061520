@@ -5,11 +5,9 @@ while i < num.length
 prime_num << yield(num[i])
 i += 1 
 end
-
- 
- if block_return_values.include?(false)
-   false
+if prime_num.prime?(true)
+   true 
  else
-   true
+   false 
  end
 end
