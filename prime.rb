@@ -1,6 +1,12 @@
 def prime?(num)
+  i = 2 
+while i <= num-1
+
+
+end
+
 (2..num).to_a 
-i = 
+
 end 
 
 
